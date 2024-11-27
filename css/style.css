@@ -16,7 +16,18 @@ h1 {
     font-size: 50px;
 }
 
+.standard_button {
+
+    background-color: rgb(71, 99, 253);
+    height: 40px;
+    color: white;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* header */
+
 header {
     /* background-color: aqua; */
     width: 100%;
@@ -65,53 +76,42 @@ a{
 
 /* main */
 
-.macro_container{
 
-    background-color: #b4d0e6;
-    width: 100%;
-    height: 700px;
-    display: flex;
-    
-    justify-content: center;
-    
-    
 
-}
-
-.standard_button {
-
-    background-color: rgb(71, 99, 253);
-    height: 40px;
-    color: white;
-    width: 220px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* jumbo */
+
+.macro_container_jumbo{
+
+    background-color: #b4d0e6;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
 
 img {
 
     max-width: 100%;
     height: 100%;
 }
-.container2 {
+.container_jumbo {
 
     /* background-color: orange; */
     width: 70%;
-    height: 100%;
+    /* height: 100%; */
     
 }
 
-.container3 {
+.container_jumbo_title {
 
     /* background-color: red; */
     width: 100%;
-    height: 20%;
+    /* height: 20%; */
 }
 
-.container4 {
+.container_jumbo_img_description{
 
     /* background-color: blue; */
     width: 100%;
@@ -119,21 +119,21 @@ img {
     display: flex;
 }
 
-.container5 {
+.container_jumbo_description {
 
     /* background-color: blueviolet; */
-    width: 40%;
-    height: 100%;
+    width: 30%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.container6 {
+.container_jumbo_image {
 
     /* background-color: bisque; */
-    width: 60%;
-    height: 100%;
+    width: 70%;
+    /* height: 100%; */
 }
 
 
