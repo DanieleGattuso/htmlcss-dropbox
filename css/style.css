@@ -26,6 +26,29 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #646161;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.checkbox-round:checked {
+    background-color: rgb(24, 74, 236);
+}
+
+span {
+
+    padding: 5px;
+}
 /* header */
 
 header {
@@ -86,6 +109,7 @@ a{
     background-color: #b4d0e6;
     display: flex;
     justify-content: center;
+    padding-top: 50px;
     
     
 
@@ -135,6 +159,78 @@ img {
     width: 70%;
     /* height: 100%; */
 }
+
+/* fine jumbo */
+
+/* Inizio Parte piani Business */
+
+.business_all_page{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.business_page_container {
+
+    /* background-color: blue; */
+    /* height: 1000px; */
+    width: 60%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+#checkbox_container {
+
+    /* background-color: aqua; */
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* Piani tariffari */
+
+.container_plan {
+
+
+    width: 100%;
+    height: 700px;
+    /* background-color: rgb(10, 243, 111); */
+    display: flex;
+    justify-content: space-between;
+    /* border: grey solid 1px; */
+
+}
+
+.section_plans {
+
+    width: 30%;
+    height: 100%; 
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid grey;
+    
+}
+
+.mini_container{
+
+    /* background-color: yellow; */
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+ 
+    
+}
+
 
 
 
