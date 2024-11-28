@@ -17,6 +17,8 @@ h1 {
     
 }
 
+
+
 h3 {
 
     margin-bottom: 20px;
@@ -36,6 +38,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
     
 }
 
@@ -85,7 +88,7 @@ header {
     
 }
 
-a{
+.a_header{
     text-decoration: none;
     color: black;
 }
@@ -399,6 +402,7 @@ a{
     margin-left: 25px;
     display:flex ;
     justify-content: center;
+    text-decoration: none;
 
     
     
@@ -433,7 +437,8 @@ a{
     
     border: gray 1px solid;   
     padding: 8px;
-    
+    text-decoration: none;
+    color: black;
 }
 
 /* Quarto blocco main */
@@ -463,4 +468,30 @@ a{
     /* height: 100%; */
 }
 
+.title_box {
 
+    width: 60%;
+    /* height: 100px; */
+    /* background-color: azure; */
+    margin-bottom: 170px;
+    
+    
+}
+
+#h2_margin {
+
+    font-size: 35px;
+    margin-bottom: 40px ;
+}
+
+footer {
+
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.footer_container {
+    
+}
