@@ -107,6 +107,7 @@ a{
     padding: 15px;
     
     
+    
 }
 
 .normal_button {
@@ -424,7 +425,7 @@ a{
 
     
     width: 100%;
-    height: 100%;
+    /* height: 40%; */
 }
 
 #find_partner_button{
@@ -435,5 +436,31 @@ a{
     
 }
 
+/* Quarto blocco main */
+
+
+.explain_dropbox_boxes{
+
+    /* background-color: blue; */
+    width: 60%;
+    /* height: 1000px; */
+    margin-top: 50px;
+    /* border: grey 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-bottom: 100px; */
+    
+}
+
+.six_image_boxes {
+
+    width: 30%;
+    /* background-color: orange; */
+    
+    margin-bottom: 50px;
+    
+    /* height: 100%; */
+}
 
 
