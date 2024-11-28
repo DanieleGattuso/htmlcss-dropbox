@@ -5,10 +5,21 @@
     font-family: 'Open Sans';
 }
 
+p {
+    padding-bottom: 15px;
+    padding-top: 30px;
+    
+}
 h1 {
 
-    font-size: 50px;
+    font-size: 70px;
+    padding-bottom: 10px;
     
+}
+
+h3 {
+
+    margin-bottom: 20px;
 }
 
 #freccia_grande {
@@ -25,6 +36,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .checkbox-round {
@@ -49,6 +61,17 @@ span {
 
     padding: 5px;
 }
+
+#span1 {
+    padding: 0px;
+}
+
+form {
+    display:flex ;
+    gap: 50px;
+}
+
+
 /* header */
 
 header {
@@ -115,10 +138,12 @@ a{
 
 }
 
-img {
+#img_jumbo {
 
-    max-width: 100%;
-    height: 100%;
+    width: 100%;
+    /* height: 100%; */
+    padding-top: 30px;
+    
 }
 .container_jumbo {
 
@@ -141,16 +166,20 @@ img {
     width: 100%;
     height: 80%;
     display: flex;
+    
 }
 
 .container_jumbo_description {
 
     /* background-color: blueviolet; */
     width: 30%;
+    
+    
+    
     /* height: 100%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: space-around; */
 }
 
 .container_jumbo_image {
@@ -167,7 +196,9 @@ img {
 .business_all_page{
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
+    
 
 }
 
@@ -177,9 +208,9 @@ img {
     /* height: 1000px; */
     width: 60%;
     margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: space-between; */
     
     
 }
@@ -190,6 +221,9 @@ img {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 30px;
+    display: flex;
+    gap: 50px;
+    
 }
 
 /* Piani tariffari */
@@ -203,18 +237,25 @@ img {
     display: flex;
     justify-content: space-between;
     /* border: grey solid 1px; */
+    
+    
 
 }
 
 .section_plans {
 
     width: 30%;
-    height: 100%; 
+    /* height: 100%;  */
     /* background-color: red; */
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+   
     
     border: 1px solid grey;
+    
+    
+    
     
 }
 
@@ -222,12 +263,141 @@ img {
 
     /* background-color: yellow; */
     width: 100%;
-    height: 5%;
+    /* height: 5%; */
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid gray;
+    
+    
  
+    
+}
+
+.plans_cost {
+
+    /* background-color: blue; */
+    width: 100%;
+    /* height: 15%; */
+    margin-top: 40px;
+    margin-left: 20px;
+    /* display: flex;
+    flex-direction: column; */
+    gap: 15px;
+    
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+
+    
+}
+
+
+#big_box_plans{
+
+    display: flex;
+    justify-content: space-between;
+    
+    
+    gap: 10px;
+
+
+
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    
+
+
+}
+
+.small_logos_box {
+
+    /* background-color: blue; */
+    width: 10%;
+    /* margin-top: 40px;
+    margin-left: 20px; */
+    display: flex;
+    flex-direction: column;
+    gap: 60px
+    
+    
+    
+}
+
+.small_logo_description_box {
+
+    /* background-color: #646161; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px
+    
+    
+
+
+
+}
+
+/* enterprise box */
+
+.mini_container_enterprise{
+
+    /* background-color: yellow; */
+    width: 60%;
+    /* height: 5%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    margin-top: 50px;
+    
+    
+    
+    
+    
+ 
+    
+}
+#enterprise_contact_box{
+
+    /* background-color: blue; */
+    width: 60%;
+    /* height: 500px; */
+    /* margin-top: 50px; */
+    border: grey 1px solid;
+    display: flex;
+    
+
+    
+
+
+}
+
+.enterprise_box_form {
+
+    /* background-color: blueviolet; */
+    width: 70%;
+    /* height: 100%; */
+    margin-top: 25px;
+    margin-left: 25px;
+    /* margin-right: 25px; */
+
+    
+}
+
+#enterprise_button_box {
+
+    /* background-color: red; */
+    width: 30%;
+    /* height: 100%; */
+    margin-top: 25px;
+    margin-left: 25px;
+    display:flex ;
+    justify-content: center;
+
+    
     
 }
 
