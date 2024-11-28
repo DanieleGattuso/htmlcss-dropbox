@@ -490,8 +490,44 @@ footer {
     height: 400px;
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .footer_container {
+
+    /* background-color: orange; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer_info_boxes {
+
+    /* background-color: blueviolet; */
+    width: 15%;
     
+    
+}
+
+.a_footer{
+    text-decoration: none;
+    color: white;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.h3_footer {
+
+    color: white;
+    font-size: 25px
 }
